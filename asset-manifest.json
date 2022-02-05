@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/sg-cost-calculator/static/css/main.6a6f9f72.css",
-    "main.js": "/sg-cost-calculator/static/js/main.37069406.js",
+    "main.css": "/sg-cost-calculator/static/css/main.0aa279b3.css",
+    "main.js": "/sg-cost-calculator/static/js/main.14a2b833.js",
     "static/js/787.5817ee39.chunk.js": "/sg-cost-calculator/static/js/787.5817ee39.chunk.js",
     "index.html": "/sg-cost-calculator/index.html",
-    "main.6a6f9f72.css.map": "/sg-cost-calculator/static/css/main.6a6f9f72.css.map",
-    "main.37069406.js.map": "/sg-cost-calculator/static/js/main.37069406.js.map",
+    "main.0aa279b3.css.map": "/sg-cost-calculator/static/css/main.0aa279b3.css.map",
+    "main.14a2b833.js.map": "/sg-cost-calculator/static/js/main.14a2b833.js.map",
     "787.5817ee39.chunk.js.map": "/sg-cost-calculator/static/js/787.5817ee39.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6a6f9f72.css",
-    "static/js/main.37069406.js"
+    "static/css/main.0aa279b3.css",
+    "static/js/main.14a2b833.js"
   ]
 }
