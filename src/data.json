@@ -1,0 +1,1352 @@
+[
+  {
+    "ovr": 99,
+    "prices": [
+      {
+        "minInclusive": 550,
+        "maxInclusive": 594,
+        "cost": "4,995,000"
+      },
+      {
+        "minInclusive": 525,
+        "maxInclusive": 549,
+        "cost": "4,590,000"
+      },
+      {
+        "minInclusive": 500,
+        "maxInclusive": 524,
+        "cost": "4,320,000"
+      },
+      {
+        "minInclusive": 475,
+        "maxInclusive": 499,
+        "cost": "4,050,000"
+      },
+      {
+        "minInclusive": 450,
+        "maxInclusive": 474,
+        "cost": "3,780,000"
+      },
+      {
+        "minInclusive": 400,
+        "maxInclusive": 449,
+        "cost": "3,510,000"
+      },
+      {
+        "minInclusive": 301,
+        "maxInclusive": 399,
+        "cost": "3,240,000"
+      },
+      {
+        "minInclusive": 251,
+        "maxInclusive": 300,
+        "cost": "2,700,000"
+      }
+    ]
+  },
+  {
+    "ovr": 98,
+    "prices": [
+      {
+        "minInclusive": 550,
+        "maxInclusive": 594,
+        "cost": "4,440,000"
+      },
+      {
+        "minInclusive": 525,
+        "maxInclusive": 549,
+        "cost": "4,080,000"
+      },
+      {
+        "minInclusive": 500,
+        "maxInclusive": 524,
+        "cost": "3,840,000"
+      },
+      {
+        "minInclusive": 475,
+        "maxInclusive": 499,
+        "cost": "3,600,000"
+      },
+      {
+        "minInclusive": 450,
+        "maxInclusive": 474,
+        "cost": "3,360,000"
+      },
+      {
+        "minInclusive": 400,
+        "maxInclusive": 449,
+        "cost": "3,120,000"
+      },
+      {
+        "minInclusive": 301,
+        "maxInclusive": 399,
+        "cost": "2,880,000"
+      },
+      {
+        "minInclusive": 251,
+        "maxInclusive": 300,
+        "cost": "2,400,000"
+      }
+    ]
+  },
+  {
+    "ovr": 97,
+    "prices": [
+      {
+        "minInclusive": 550,
+        "maxInclusive": 594,
+        "cost": "3,885,000"
+      },
+      {
+        "minInclusive": 525,
+        "maxInclusive": 549,
+        "cost": "3,570,000"
+      },
+      {
+        "minInclusive": 500,
+        "maxInclusive": 524,
+        "cost": "3,360,000"
+      },
+      {
+        "minInclusive": 475,
+        "maxInclusive": 499,
+        "cost": "3,150,000"
+      },
+      {
+        "minInclusive": 450,
+        "maxInclusive": 474,
+        "cost": "2,940,000"
+      },
+      {
+        "minInclusive": 400,
+        "maxInclusive": 449,
+        "cost": "2,730,000"
+      },
+      {
+        "minInclusive": 301,
+        "maxInclusive": 399,
+        "cost": "2,520,000"
+      },
+      {
+        "minInclusive": 251,
+        "maxInclusive": 300,
+        "cost": "2,100,000"
+      }
+    ]
+  },
+  {
+    "ovr": 96,
+    "prices": [
+      {
+        "minInclusive": 550,
+        "maxInclusive": 594,
+        "cost": "3,330,000"
+      },
+      {
+        "minInclusive": 525,
+        "maxInclusive": 549,
+        "cost": "3,060,000"
+      },
+      {
+        "minInclusive": 500,
+        "maxInclusive": 524,
+        "cost": "2,880,000"
+      },
+      {
+        "minInclusive": 475,
+        "maxInclusive": 499,
+        "cost": "2,700,000"
+      },
+      {
+        "minInclusive": 450,
+        "maxInclusive": 474,
+        "cost": "2,520,000"
+      },
+      {
+        "minInclusive": 400,
+        "maxInclusive": 449,
+        "cost": "2,340,000"
+      },
+      {
+        "minInclusive": 301,
+        "maxInclusive": 399,
+        "cost": "2,160,000"
+      },
+      {
+        "minInclusive": 251,
+        "maxInclusive": 300,
+        "cost": "1,800,000"
+      }
+    ]
+  },
+  {
+    "ovr": 95,
+    "prices": [
+      {
+        "minInclusive": 550,
+        "maxInclusive": 594,
+        "cost": "2,775,000"
+      },
+      {
+        "minInclusive": 525,
+        "maxInclusive": 549,
+        "cost": "2,550,000"
+      },
+      {
+        "minInclusive": 500,
+        "maxInclusive": 524,
+        "cost": "2,400,000"
+      },
+      {
+        "minInclusive": 475,
+        "maxInclusive": 499,
+        "cost": "2,250,000"
+      },
+      {
+        "minInclusive": 450,
+        "maxInclusive": 474,
+        "cost": "2,100,000"
+      },
+      {
+        "minInclusive": 400,
+        "maxInclusive": 449,
+        "cost": "1,950,000"
+      },
+      {
+        "minInclusive": 301,
+        "maxInclusive": 399,
+        "cost": "1,800,000"
+      },
+      {
+        "minInclusive": 251,
+        "maxInclusive": 300,
+        "cost": "1,500,000"
+      }
+    ]
+  },
+  {
+    "ovr": 94,
+    "prices": [
+      {
+        "minInclusive": 550,
+        "maxInclusive": 594,
+        "cost": "2,386,500"
+      },
+      {
+        "minInclusive": 525,
+        "maxInclusive": 549,
+        "cost": "2,193,000"
+      },
+      {
+        "minInclusive": 500,
+        "maxInclusive": 524,
+        "cost": "2,064,000"
+      },
+      {
+        "minInclusive": 475,
+        "maxInclusive": 499,
+        "cost": "1,935,000"
+      },
+      {
+        "minInclusive": 450,
+        "maxInclusive": 474,
+        "cost": "1,806,000"
+      },
+      {
+        "minInclusive": 400,
+        "maxInclusive": 449,
+        "cost": "1,677,000"
+      },
+      {
+        "minInclusive": 301,
+        "maxInclusive": 399,
+        "cost": "1,548,000"
+      },
+      {
+        "minInclusive": 251,
+        "maxInclusive": 300,
+        "cost": "1,290,000"
+      }
+    ]
+  },
+  {
+    "ovr": 93,
+    "prices": [
+      {
+        "minInclusive": 550,
+        "maxInclusive": 594,
+        "cost": "1,998,000"
+      },
+      {
+        "minInclusive": 525,
+        "maxInclusive": 549,
+        "cost": "1,836,000"
+      },
+      {
+        "minInclusive": 500,
+        "maxInclusive": 524,
+        "cost": "1,728,000"
+      },
+      {
+        "minInclusive": 475,
+        "maxInclusive": 499,
+        "cost": "1,620,000"
+      },
+      {
+        "minInclusive": 450,
+        "maxInclusive": 474,
+        "cost": "1,512,000"
+      },
+      {
+        "minInclusive": 400,
+        "maxInclusive": 449,
+        "cost": "1,404,000"
+      },
+      {
+        "minInclusive": 301,
+        "maxInclusive": 399,
+        "cost": "1,296,000"
+      },
+      {
+        "minInclusive": 251,
+        "maxInclusive": 300,
+        "cost": "1,080,000"
+      }
+    ]
+  },
+  {
+    "ovr": 92,
+    "prices": [
+      {
+        "minInclusive": 550,
+        "maxInclusive": 594,
+        "cost": "1,609,500"
+      },
+      {
+        "minInclusive": 525,
+        "maxInclusive": 549,
+        "cost": "1,479,000"
+      },
+      {
+        "minInclusive": 500,
+        "maxInclusive": 524,
+        "cost": "1,392,000"
+      },
+      {
+        "minInclusive": 475,
+        "maxInclusive": 499,
+        "cost": "1,305,000"
+      },
+      {
+        "minInclusive": 450,
+        "maxInclusive": 474,
+        "cost": "1,218,000"
+      },
+      {
+        "minInclusive": 400,
+        "maxInclusive": 449,
+        "cost": "1,131,000"
+      },
+      {
+        "minInclusive": 301,
+        "maxInclusive": 399,
+        "cost": "1,044,000"
+      },
+      {
+        "minInclusive": 251,
+        "maxInclusive": 300,
+        "cost": "870,000"
+      }
+    ]
+  },
+  {
+    "ovr": 91,
+    "prices": [
+      {
+        "minInclusive": 550,
+        "maxInclusive": 594,
+        "cost": "1,221,000"
+      },
+      {
+        "minInclusive": 525,
+        "maxInclusive": 549,
+        "cost": "1,122,000"
+      },
+      {
+        "minInclusive": 500,
+        "maxInclusive": 524,
+        "cost": "1,056,000"
+      },
+      {
+        "minInclusive": 475,
+        "maxInclusive": 499,
+        "cost": "990,000"
+      },
+      {
+        "minInclusive": 450,
+        "maxInclusive": 474,
+        "cost": "924,000"
+      },
+      {
+        "minInclusive": 400,
+        "maxInclusive": 449,
+        "cost": "858,000"
+      },
+      {
+        "minInclusive": 301,
+        "maxInclusive": 399,
+        "cost": "792,000"
+      },
+      {
+        "minInclusive": 251,
+        "maxInclusive": 300,
+        "cost": "660,000"
+      }
+    ]
+  },
+  {
+    "ovr": 90,
+    "prices": [
+      {
+        "minInclusive": 550,
+        "maxInclusive": 594,
+        "cost": "832,500"
+      },
+      {
+        "minInclusive": 525,
+        "maxInclusive": 549,
+        "cost": "765,000"
+      },
+      {
+        "minInclusive": 500,
+        "maxInclusive": 524,
+        "cost": "720,000"
+      },
+      {
+        "minInclusive": 475,
+        "maxInclusive": 499,
+        "cost": "675,000"
+      },
+      {
+        "minInclusive": 450,
+        "maxInclusive": 474,
+        "cost": "630,000"
+      },
+      {
+        "minInclusive": 400,
+        "maxInclusive": 449,
+        "cost": "585,000"
+      },
+      {
+        "minInclusive": 301,
+        "maxInclusive": 399,
+        "cost": "540,000"
+      },
+      {
+        "minInclusive": 251,
+        "maxInclusive": 300,
+        "cost": "450,000"
+      }
+    ]
+  },
+  {
+    "ovr": 89,
+    "prices": [
+      {
+        "minInclusive": 550,
+        "maxInclusive": 594,
+        "cost": "707,625"
+      },
+      {
+        "minInclusive": 525,
+        "maxInclusive": 549,
+        "cost": "650,250"
+      },
+      {
+        "minInclusive": 500,
+        "maxInclusive": 524,
+        "cost": "612,000"
+      },
+      {
+        "minInclusive": 475,
+        "maxInclusive": 499,
+        "cost": "573,750"
+      },
+      {
+        "minInclusive": 450,
+        "maxInclusive": 474,
+        "cost": "535,500"
+      },
+      {
+        "minInclusive": 400,
+        "maxInclusive": 449,
+        "cost": "497,250"
+      },
+      {
+        "minInclusive": 301,
+        "maxInclusive": 399,
+        "cost": "459,000"
+      },
+      {
+        "minInclusive": 251,
+        "maxInclusive": 300,
+        "cost": "382,500"
+      }
+    ]
+  },
+  {
+    "ovr": 88,
+    "prices": [
+      {
+        "minInclusive": 550,
+        "maxInclusive": 594,
+        "cost": "582,750"
+      },
+      {
+        "minInclusive": 525,
+        "maxInclusive": 549,
+        "cost": "535,500"
+      },
+      {
+        "minInclusive": 500,
+        "maxInclusive": 524,
+        "cost": "504,000"
+      },
+      {
+        "minInclusive": 475,
+        "maxInclusive": 499,
+        "cost": "472,500"
+      },
+      {
+        "minInclusive": 450,
+        "maxInclusive": 474,
+        "cost": "441,000"
+      },
+      {
+        "minInclusive": 400,
+        "maxInclusive": 449,
+        "cost": "409,500"
+      },
+      {
+        "minInclusive": 301,
+        "maxInclusive": 399,
+        "cost": "378,000"
+      },
+      {
+        "minInclusive": 251,
+        "maxInclusive": 300,
+        "cost": "315,000"
+      }
+    ]
+  },
+  {
+    "ovr": 87,
+    "prices": [
+      {
+        "minInclusive": 550,
+        "maxInclusive": 594,
+        "cost": "457,875"
+      },
+      {
+        "minInclusive": 525,
+        "maxInclusive": 549,
+        "cost": "420,750"
+      },
+      {
+        "minInclusive": 500,
+        "maxInclusive": 524,
+        "cost": "396,000"
+      },
+      {
+        "minInclusive": 475,
+        "maxInclusive": 499,
+        "cost": "371,250"
+      },
+      {
+        "minInclusive": 450,
+        "maxInclusive": 474,
+        "cost": "346,500"
+      },
+      {
+        "minInclusive": 400,
+        "maxInclusive": 449,
+        "cost": "321,750"
+      },
+      {
+        "minInclusive": 301,
+        "maxInclusive": 399,
+        "cost": "297,000"
+      },
+      {
+        "minInclusive": 251,
+        "maxInclusive": 300,
+        "cost": "247,500"
+      }
+    ]
+  },
+  {
+    "ovr": 86,
+    "prices": [
+      {
+        "minInclusive": 550,
+        "maxInclusive": 594,
+        "cost": "333,000"
+      },
+      {
+        "minInclusive": 525,
+        "maxInclusive": 549,
+        "cost": "306,000"
+      },
+      {
+        "minInclusive": 500,
+        "maxInclusive": 524,
+        "cost": "288,000"
+      },
+      {
+        "minInclusive": 475,
+        "maxInclusive": 499,
+        "cost": "270,000"
+      },
+      {
+        "minInclusive": 450,
+        "maxInclusive": 474,
+        "cost": "252,000"
+      },
+      {
+        "minInclusive": 400,
+        "maxInclusive": 449,
+        "cost": "234,000"
+      },
+      {
+        "minInclusive": 301,
+        "maxInclusive": 399,
+        "cost": "216,000"
+      },
+      {
+        "minInclusive": 251,
+        "maxInclusive": 300,
+        "cost": "180,000"
+      }
+    ]
+  },
+  {
+    "ovr": 85,
+    "prices": [
+      {
+        "minInclusive": 550,
+        "maxInclusive": 594,
+        "cost": "208,125"
+      },
+      {
+        "minInclusive": 525,
+        "maxInclusive": 549,
+        "cost": "191,250"
+      },
+      {
+        "minInclusive": 500,
+        "maxInclusive": 524,
+        "cost": "180,000"
+      },
+      {
+        "minInclusive": 475,
+        "maxInclusive": 499,
+        "cost": "168,750"
+      },
+      {
+        "minInclusive": 450,
+        "maxInclusive": 474,
+        "cost": "157,500"
+      },
+      {
+        "minInclusive": 400,
+        "maxInclusive": 449,
+        "cost": "146,250"
+      },
+      {
+        "minInclusive": 301,
+        "maxInclusive": 399,
+        "cost": "135,000"
+      },
+      {
+        "minInclusive": 251,
+        "maxInclusive": 300,
+        "cost": "112,500"
+      }
+    ]
+  },
+  {
+    "ovr": 84,
+    "prices": [
+      {
+        "minInclusive": 550,
+        "maxInclusive": 594,
+        "cost": "170,662"
+      },
+      {
+        "minInclusive": 525,
+        "maxInclusive": 549,
+        "cost": "156,825"
+      },
+      {
+        "minInclusive": 500,
+        "maxInclusive": 524,
+        "cost": "147,600"
+      },
+      {
+        "minInclusive": 475,
+        "maxInclusive": 499,
+        "cost": "136,875"
+      },
+      {
+        "minInclusive": 450,
+        "maxInclusive": 474,
+        "cost": "129,150"
+      },
+      {
+        "minInclusive": 400,
+        "maxInclusive": 449,
+        "cost": "119,925"
+      },
+      {
+        "minInclusive": 301,
+        "maxInclusive": 399,
+        "cost": "110,700"
+      },
+      {
+        "minInclusive": 251,
+        "maxInclusive": 300,
+        "cost": "92,250"
+      }
+    ]
+  },
+  {
+    "ovr": 83,
+    "prices": [
+      {
+        "minInclusive": 550,
+        "maxInclusive": 594,
+        "cost": "133,200"
+      },
+      {
+        "minInclusive": 525,
+        "maxInclusive": 549,
+        "cost": "122,400"
+      },
+      {
+        "minInclusive": 500,
+        "maxInclusive": 524,
+        "cost": "115,200"
+      },
+      {
+        "minInclusive": 475,
+        "maxInclusive": 499,
+        "cost": "108,000"
+      },
+      {
+        "minInclusive": 450,
+        "maxInclusive": 474,
+        "cost": "100,800"
+      },
+      {
+        "minInclusive": 400,
+        "maxInclusive": 449,
+        "cost": "92,625"
+      },
+      {
+        "minInclusive": 301,
+        "maxInclusive": 399,
+        "cost": "86,400"
+      },
+      {
+        "minInclusive": 251,
+        "maxInclusive": 300,
+        "cost": "72,000"
+      }
+    ]
+  },
+  {
+    "ovr": 82,
+    "prices": [
+      {
+        "minInclusive": 550,
+        "maxInclusive": 594,
+        "cost": "95,737"
+      },
+      {
+        "minInclusive": 525,
+        "maxInclusive": 549,
+        "cost": "87,975"
+      },
+      {
+        "minInclusive": 500,
+        "maxInclusive": 524,
+        "cost": "82,800"
+      },
+      {
+        "minInclusive": 475,
+        "maxInclusive": 499,
+        "cost": "77,625"
+      },
+      {
+        "minInclusive": 450,
+        "maxInclusive": 474,
+        "cost": "72,450"
+      },
+      {
+        "minInclusive": 400,
+        "maxInclusive": 449,
+        "cost": "66,625"
+      },
+      {
+        "minInclusive": 301,
+        "maxInclusive": 399,
+        "cost": "62,100"
+      },
+      {
+        "minInclusive": 251,
+        "maxInclusive": 300,
+        "cost": "51,750"
+      }
+    ]
+  },
+  {
+    "ovr": 81,
+    "prices": [
+      {
+        "minInclusive": 550,
+        "maxInclusive": 594,
+        "cost": "58,275"
+      },
+      {
+        "minInclusive": 525,
+        "maxInclusive": 549,
+        "cost": "53,550"
+      },
+      {
+        "minInclusive": 500,
+        "maxInclusive": 524,
+        "cost": "50,400"
+      },
+      {
+        "minInclusive": 475,
+        "maxInclusive": 499,
+        "cost": "47,250"
+      },
+      {
+        "minInclusive": 450,
+        "maxInclusive": 474,
+        "cost": "44,100"
+      },
+      {
+        "minInclusive": 400,
+        "maxInclusive": 449,
+        "cost": "40,625"
+      },
+      {
+        "minInclusive": 301,
+        "maxInclusive": 399,
+        "cost": "37,800"
+      },
+      {
+        "minInclusive": 251,
+        "maxInclusive": 300,
+        "cost": "31,500"
+      }
+    ]
+  },
+  {
+    "ovr": 80,
+    "prices": [
+      {
+        "minInclusive": 550,
+        "maxInclusive": 594,
+        "cost": "20,812"
+      },
+      {
+        "minInclusive": 525,
+        "maxInclusive": 549,
+        "cost": "19,125"
+      },
+      {
+        "minInclusive": 500,
+        "maxInclusive": 524,
+        "cost": "18,000"
+      },
+      {
+        "minInclusive": 475,
+        "maxInclusive": 499,
+        "cost": "16,875"
+      },
+      {
+        "minInclusive": 450,
+        "maxInclusive": 474,
+        "cost": "15,750"
+      },
+      {
+        "minInclusive": 400,
+        "maxInclusive": 449,
+        "cost": "14,625"
+      },
+      {
+        "minInclusive": 301,
+        "maxInclusive": 399,
+        "cost": "13,500"
+      },
+      {
+        "minInclusive": 251,
+        "maxInclusive": 300,
+        "cost": "11,250"
+      }
+    ]
+  },
+  {
+    "ovr": 79,
+    "prices": [
+      {
+        "minInclusive": 550,
+        "maxInclusive": 594,
+        "cost": "17,760"
+      },
+      {
+        "minInclusive": 525,
+        "maxInclusive": 549,
+        "cost": "16,320"
+      },
+      {
+        "minInclusive": 500,
+        "maxInclusive": 524,
+        "cost": "15,360"
+      },
+      {
+        "minInclusive": 475,
+        "maxInclusive": 499,
+        "cost": "14,400"
+      },
+      {
+        "minInclusive": 450,
+        "maxInclusive": 474,
+        "cost": "13,440"
+      },
+      {
+        "minInclusive": 400,
+        "maxInclusive": 449,
+        "cost": "12,480"
+      },
+      {
+        "minInclusive": 301,
+        "maxInclusive": 399,
+        "cost": "11,520"
+      },
+      {
+        "minInclusive": 251,
+        "maxInclusive": 300,
+        "cost": "9,600"
+      }
+    ]
+  },
+  {
+    "ovr": 78,
+    "prices": [
+      {
+        "minInclusive": 550,
+        "maxInclusive": 594,
+        "cost": "14,708"
+      },
+      {
+        "minInclusive": 525,
+        "maxInclusive": 549,
+        "cost": "13,515"
+      },
+      {
+        "minInclusive": 500,
+        "maxInclusive": 524,
+        "cost": "12,720"
+      },
+      {
+        "minInclusive": 475,
+        "maxInclusive": 499,
+        "cost": "11,925"
+      },
+      {
+        "minInclusive": 450,
+        "maxInclusive": 474,
+        "cost": "11,130"
+      },
+      {
+        "minInclusive": 400,
+        "maxInclusive": 449,
+        "cost": "10,335"
+      },
+      {
+        "minInclusive": 301,
+        "maxInclusive": 399,
+        "cost": "9,540"
+      },
+      {
+        "minInclusive": 251,
+        "maxInclusive": 300,
+        "cost": "7,950"
+      }
+    ]
+  },
+  {
+    "ovr": 77,
+    "prices": [
+      {
+        "minInclusive": 550,
+        "maxInclusive": 594,
+        "cost": "11,655"
+      },
+      {
+        "minInclusive": 525,
+        "maxInclusive": 549,
+        "cost": "10,710"
+      },
+      {
+        "minInclusive": 500,
+        "maxInclusive": 524,
+        "cost": "10,080"
+      },
+      {
+        "minInclusive": 475,
+        "maxInclusive": 499,
+        "cost": "9,450"
+      },
+      {
+        "minInclusive": 450,
+        "maxInclusive": 474,
+        "cost": "8,820"
+      },
+      {
+        "minInclusive": 400,
+        "maxInclusive": 449,
+        "cost": "8,190"
+      },
+      {
+        "minInclusive": 301,
+        "maxInclusive": 399,
+        "cost": "7,560"
+      },
+      {
+        "minInclusive": 251,
+        "maxInclusive": 300,
+        "cost": "6,300"
+      }
+    ]
+  },
+  {
+    "ovr": 76,
+    "prices": [
+      {
+        "minInclusive": 550,
+        "maxInclusive": 594,
+        "cost": "8,603"
+      },
+      {
+        "minInclusive": 525,
+        "maxInclusive": 549,
+        "cost": "7,905"
+      },
+      {
+        "minInclusive": 500,
+        "maxInclusive": 524,
+        "cost": "7,440"
+      },
+      {
+        "minInclusive": 475,
+        "maxInclusive": 499,
+        "cost": "6,975"
+      },
+      {
+        "minInclusive": 450,
+        "maxInclusive": 474,
+        "cost": "6,510"
+      },
+      {
+        "minInclusive": 400,
+        "maxInclusive": 449,
+        "cost": "6,045"
+      },
+      {
+        "minInclusive": 301,
+        "maxInclusive": 399,
+        "cost": "5,580"
+      },
+      {
+        "minInclusive": 251,
+        "maxInclusive": 300,
+        "cost": "4,650"
+      }
+    ]
+  },
+  {
+    "ovr": 75,
+    "prices": [
+      {
+        "minInclusive": 550,
+        "maxInclusive": 594,
+        "cost": "5,550"
+      },
+      {
+        "minInclusive": 525,
+        "maxInclusive": 549,
+        "cost": "5,100"
+      },
+      {
+        "minInclusive": 500,
+        "maxInclusive": 524,
+        "cost": "4,800"
+      },
+      {
+        "minInclusive": 475,
+        "maxInclusive": 499,
+        "cost": "4,500"
+      },
+      {
+        "minInclusive": 450,
+        "maxInclusive": 474,
+        "cost": "4,200"
+      },
+      {
+        "minInclusive": 400,
+        "maxInclusive": 449,
+        "cost": "3,900"
+      },
+      {
+        "minInclusive": 301,
+        "maxInclusive": 399,
+        "cost": "3,600"
+      },
+      {
+        "minInclusive": 251,
+        "maxInclusive": 300,
+        "cost": "3,000"
+      }
+    ]
+  },
+  {
+    "ovr": 74,
+    "prices": [
+      {
+        "minInclusive": 550,
+        "maxInclusive": 594,
+        "cost": "4,995"
+      },
+      {
+        "minInclusive": 525,
+        "maxInclusive": 549,
+        "cost": "4,590"
+      },
+      {
+        "minInclusive": 500,
+        "maxInclusive": 524,
+        "cost": "4,320"
+      },
+      {
+        "minInclusive": 475,
+        "maxInclusive": 499,
+        "cost": "4,050"
+      },
+      {
+        "minInclusive": 450,
+        "maxInclusive": 474,
+        "cost": "3,780"
+      },
+      {
+        "minInclusive": 400,
+        "maxInclusive": 449,
+        "cost": "3,510"
+      },
+      {
+        "minInclusive": 301,
+        "maxInclusive": 399,
+        "cost": "3,240"
+      },
+      {
+        "minInclusive": 251,
+        "maxInclusive": 300,
+        "cost": "2,700"
+      }
+    ]
+  },
+  {
+    "ovr": 73,
+    "prices": [
+      {
+        "minInclusive": 550,
+        "maxInclusive": 594,
+        "cost": "4,440"
+      },
+      {
+        "minInclusive": 525,
+        "maxInclusive": 549,
+        "cost": "4,080"
+      },
+      {
+        "minInclusive": 500,
+        "maxInclusive": 524,
+        "cost": "3,840"
+      },
+      {
+        "minInclusive": 475,
+        "maxInclusive": 499,
+        "cost": "3,600"
+      },
+      {
+        "minInclusive": 450,
+        "maxInclusive": 474,
+        "cost": "3,360"
+      },
+      {
+        "minInclusive": 400,
+        "maxInclusive": 449,
+        "cost": "3,120"
+      },
+      {
+        "minInclusive": 301,
+        "maxInclusive": 399,
+        "cost": "2,880"
+      },
+      {
+        "minInclusive": 251,
+        "maxInclusive": 300,
+        "cost": "2,400"
+      }
+    ]
+  },
+  {
+    "ovr": 72,
+    "prices": [
+      {
+        "minInclusive": 550,
+        "maxInclusive": 594,
+        "cost": "3,885"
+      },
+      {
+        "minInclusive": 525,
+        "maxInclusive": 549,
+        "cost": "3,570"
+      },
+      {
+        "minInclusive": 500,
+        "maxInclusive": 524,
+        "cost": "3,360"
+      },
+      {
+        "minInclusive": 475,
+        "maxInclusive": 499,
+        "cost": "3,150"
+      },
+      {
+        "minInclusive": 450,
+        "maxInclusive": 474,
+        "cost": "2,940"
+      },
+      {
+        "minInclusive": 400,
+        "maxInclusive": 449,
+        "cost": "2,730"
+      },
+      {
+        "minInclusive": 301,
+        "maxInclusive": 399,
+        "cost": "2,520"
+      },
+      {
+        "minInclusive": 251,
+        "maxInclusive": 300,
+        "cost": "2,100"
+      }
+    ]
+  },
+  {
+    "ovr": 71,
+    "prices": [
+      {
+        "minInclusive": 550,
+        "maxInclusive": 594,
+        "cost": "3,330"
+      },
+      {
+        "minInclusive": 525,
+        "maxInclusive": 549,
+        "cost": "3,060"
+      },
+      {
+        "minInclusive": 500,
+        "maxInclusive": 524,
+        "cost": "2,880"
+      },
+      {
+        "minInclusive": 475,
+        "maxInclusive": 499,
+        "cost": "2,700"
+      },
+      {
+        "minInclusive": 450,
+        "maxInclusive": 474,
+        "cost": "2,520"
+      },
+      {
+        "minInclusive": 400,
+        "maxInclusive": 449,
+        "cost": "2,340"
+      },
+      {
+        "minInclusive": 301,
+        "maxInclusive": 399,
+        "cost": "2,160"
+      },
+      {
+        "minInclusive": 251,
+        "maxInclusive": 300,
+        "cost": "1,800"
+      }
+    ]
+  },
+  {
+    "ovr": 70,
+    "prices": [
+      {
+        "minInclusive": 550,
+        "maxInclusive": 594,
+        "cost": "2,775"
+      },
+      {
+        "minInclusive": 525,
+        "maxInclusive": 549,
+        "cost": "2,550"
+      },
+      {
+        "minInclusive": 500,
+        "maxInclusive": 524,
+        "cost": "2,400"
+      },
+      {
+        "minInclusive": 475,
+        "maxInclusive": 499,
+        "cost": "2,250"
+      },
+      {
+        "minInclusive": 450,
+        "maxInclusive": 474,
+        "cost": "2,100"
+      },
+      {
+        "minInclusive": 400,
+        "maxInclusive": 449,
+        "cost": "1,950"
+      },
+      {
+        "minInclusive": 301,
+        "maxInclusive": 399,
+        "cost": "1,800"
+      },
+      {
+        "minInclusive": 251,
+        "maxInclusive": 300,
+        "cost": "1,500"
+      }
+    ]
+  }
+]
