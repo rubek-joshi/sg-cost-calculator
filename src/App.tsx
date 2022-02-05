@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import "./App.css";
-import { styled } from "@mui/material/styles";
+import { styled, responsiveFontSizes } from "@mui/material/styles";
 import Paper from "@mui/material/Paper";
 import Container from "@mui/material/Container";
 import Box from "@mui/material/Box";
@@ -18,12 +18,13 @@ const Input = styled(MuiInput)`
 `;
 
 function App() {
-  const darkTheme = createTheme({ palette: { mode: "dark" } });
+  let darkTheme = createTheme({ palette: { mode: "dark" } });
+  darkTheme = responsiveFontSizes(darkTheme);
 
   const [overall, setOverall] = useState(90);
   const [baseStats, setBaseStats] = useState("");
   const [baseStatsError, setBaseStatsError] = useState("");
-  const [cost, setCost] = useState("");
+  const [cost, setCost] = useState("n/a");
 
   useEffect(() => {
     if (
@@ -34,7 +35,7 @@ function App() {
       setBaseStatsError(
         "Should be an integer between 251 and 594 (both inclusive)"
       );
-      setCost("");
+      setCost("n/a");
     } else setBaseStatsError("");
   }, [baseStats]);
 
@@ -44,7 +45,7 @@ function App() {
         prices: undefined,
       };
       if (!prices) {
-        setCost("");
+        setCost("n/a");
         return;
       }
 
@@ -75,23 +76,25 @@ function App() {
   return (
     <div className="App">
       <ThemeProvider theme={darkTheme}>
-        <Container className="Main-container">
+        <Container>
           <Typography
             className="Main-title"
             variant="h3"
             gutterBottom
             component="div"
           >
-            Soccer Guru Player Cost Calculator
+            Soccer Guru
+            <br />
+            Player Cost Calculator
           </Typography>
 
-          <Paper sx={{ p: 2, margin: "auto", maxWidth: 500, flexGrow: 1 }}>
-            <Grid container>
-              <Grid item xs={8}>
+          <Paper sx={{ p: 4, margin: "auto", maxWidth: 450, flexShrink: 1 }}>
+            <Grid container sx={{ pb: 1 }}>
+              <Grid item xs={12}>
                 <Box alignItems="flex-start">
                   <Grid container>
                     <Typography id="input-slider" gutterBottom>
-                      Select OVR
+                      Select Overall
                     </Typography>
                   </Grid>
 
@@ -126,7 +129,7 @@ function App() {
             </Grid>
 
             <Grid container>
-              <Grid item xs={8}>
+              <Grid item xs={12}>
                 <Box alignItems="flex-start">
                   <Grid container>
                     <Typography id="input-slider" gutterBottom>
@@ -156,17 +159,18 @@ function App() {
               </Grid>
             </Grid>
 
-            <br />
-
-            <Divider />
+            <Divider sx={{ py: 2 }} />
 
             <Typography
               className="Result"
               variant="h4"
-              gutterBottom
               component="div"
+              sx={{ pt: 4, display: "flex", justifyContent: "space-between" }}
             >
-              Cost: {cost} {!baseStatsError ? "credits" : ""}
+              Cost:
+              <span>
+                {cost} {!baseStatsError ? "credits" : ""}
+              </span>
             </Typography>
           </Paper>
         </Container>
