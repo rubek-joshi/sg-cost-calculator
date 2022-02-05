@@ -11,6 +11,8 @@ import TextField from "@mui/material/TextField";
 import Slider from "@mui/material/Slider";
 import MuiInput from "@mui/material/Input";
 import Divider from "@mui/material/Divider";
+import Fab from "@mui/material/Fab";
+import GitHubIcon from "@mui/icons-material/GitHub";
 import data from "./data.json";
 
 const Input = styled(MuiInput)`
@@ -72,6 +74,9 @@ function App() {
 
   const handleBaseStatsChange = (event: any) =>
     setBaseStats(event.target.value);
+
+  const handleFabClick = () =>
+    window.open("https://github.com/rubek-joshi/sg-cost-calculator", "_blank");
 
   return (
     <div className="App">
@@ -162,7 +167,6 @@ function App() {
             <Divider sx={{ py: 2 }} />
 
             <Typography
-              className="Result"
               variant="h4"
               component="div"
               sx={{ pt: 4, display: "flex", justifyContent: "space-between" }}
@@ -173,6 +177,13 @@ function App() {
               </span>
             </Typography>
           </Paper>
+
+          <Fab
+            sx={{ position: "absolute", bottom: 16, right: 16 }}
+            onClick={handleFabClick}
+          >
+            <GitHubIcon />
+          </Fab>
         </Container>
       </ThemeProvider>
     </div>
