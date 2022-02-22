@@ -13,6 +13,7 @@ import MuiInput from "@mui/material/Input";
 import Divider from "@mui/material/Divider";
 import Fab from "@mui/material/Fab";
 import GitHubIcon from "@mui/icons-material/GitHub";
+import ReactGA from "react-ga4";
 import data from "./data.json";
 
 const Input = styled(MuiInput)`
@@ -29,6 +30,10 @@ function App() {
   const [cost, setCost] = useState("n/a");
 
   useEffect(() => {
+    ReactGA.send("pageview");
+  }, []);
+
+  useEffect(() => {
     if (
       !Number.isInteger(Number(baseStats)) ||
       Number(baseStats) < 251 ||
@@ -38,7 +43,15 @@ function App() {
         "Should be an integer between 251 and 594 (both inclusive)"
       );
       setCost("n/a");
-    } else setBaseStatsError("");
+    } else {
+      setBaseStatsError("");
+      ReactGA.event({
+        category: "engagement",
+        action: "Set Total BS Correctly",
+        value: Number(baseStats),
+        label: "input",
+      });
+    }
   }, [baseStats]);
 
   useEffect(() => {
@@ -75,8 +88,10 @@ function App() {
   const handleBaseStatsChange = (event: any) =>
     setBaseStats(event.target.value);
 
-  const handleFabClick = () =>
+  const handleFabClick = () => {
     window.open("https://github.com/rubek-joshi/sg-cost-calculator", "_blank");
+    ReactGA.event({ category: "Curiosity", action: "Visit Github Link" });
+  };
 
   return (
     <div className="App">
