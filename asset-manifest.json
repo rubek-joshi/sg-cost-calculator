@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/sg-cost-calculator/static/css/main.04dbc833.css",
-    "main.js": "/sg-cost-calculator/static/js/main.f33a8eb3.js",
+    "main.js": "/sg-cost-calculator/static/js/main.4d96ade1.js",
     "static/js/787.5817ee39.chunk.js": "/sg-cost-calculator/static/js/787.5817ee39.chunk.js",
     "index.html": "/sg-cost-calculator/index.html",
     "main.04dbc833.css.map": "/sg-cost-calculator/static/css/main.04dbc833.css.map",
-    "main.f33a8eb3.js.map": "/sg-cost-calculator/static/js/main.f33a8eb3.js.map",
+    "main.4d96ade1.js.map": "/sg-cost-calculator/static/js/main.4d96ade1.js.map",
     "787.5817ee39.chunk.js.map": "/sg-cost-calculator/static/js/787.5817ee39.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.04dbc833.css",
-    "static/js/main.f33a8eb3.js"
+    "static/js/main.4d96ade1.js"
   ]
 }
