@@ -108,7 +108,15 @@ function App() {
             Player Cost Calculator
           </Typography>
 
-          <Paper sx={{ p: 4, margin: "auto", maxWidth: 450, flexShrink: 1 }}>
+          <Paper
+            sx={{
+              p: 4,
+              margin: "auto",
+              maxWidth: 450,
+              flexShrink: 1,
+              background: "#001e3c",
+            }}
+          >
             <Grid container sx={{ pb: 1 }}>
               <Grid item xs={12}>
                 <Box alignItems="flex-start">
@@ -126,6 +134,7 @@ function App() {
                         aria-labelledby="input-slider"
                         min={70}
                         max={99}
+                        sx={{color: "#90caf9"}}
                       />
                     </Grid>
 
