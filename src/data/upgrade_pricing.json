@@ -1,0 +1,782 @@
+[
+  {
+    "baseStat": "400",
+    "cost": 12500
+  },
+  {
+    "baseStat": "401",
+    "cost": 13250
+  },
+  {
+    "baseStat": "402",
+    "cost": 14000
+  },
+  {
+    "baseStat": "403",
+    "cost": 14750
+  },
+  {
+    "baseStat": "404",
+    "cost": 15500
+  },
+  {
+    "baseStat": "405",
+    "cost": 16250
+  },
+  {
+    "baseStat": "406",
+    "cost": 17000
+  },
+  {
+    "baseStat": "407",
+    "cost": 17750
+  },
+  {
+    "baseStat": "408",
+    "cost": 18500
+  },
+  {
+    "baseStat": "409",
+    "cost": 19250
+  },
+  {
+    "baseStat": "410",
+    "cost": 20000
+  },
+  {
+    "baseStat": "411",
+    "cost": 20750
+  },
+  {
+    "baseStat": "412",
+    "cost": 21500
+  },
+  {
+    "baseStat": "413",
+    "cost": 22250
+  },
+  {
+    "baseStat": "414",
+    "cost": 23000
+  },
+  {
+    "baseStat": "415",
+    "cost": 23750
+  },
+  {
+    "baseStat": "416",
+    "cost": 24500
+  },
+  {
+    "baseStat": "417",
+    "cost": 25250
+  },
+  {
+    "baseStat": "418",
+    "cost": 26000
+  },
+  {
+    "baseStat": "419",
+    "cost": 26750
+  },
+  {
+    "baseStat": "420",
+    "cost": 27500
+  },
+  {
+    "baseStat": "421",
+    "cost": 28250
+  },
+  {
+    "baseStat": "422",
+    "cost": 29000
+  },
+  {
+    "baseStat": "423",
+    "cost": 29750
+  },
+  {
+    "baseStat": "424",
+    "cost": 30500
+  },
+  {
+    "baseStat": "425",
+    "cost": 31250
+  },
+  {
+    "baseStat": "426",
+    "cost": 32000
+  },
+  {
+    "baseStat": "427",
+    "cost": 32750
+  },
+  {
+    "baseStat": "428",
+    "cost": 33500
+  },
+  {
+    "baseStat": "429",
+    "cost": 34250
+  },
+  {
+    "baseStat": "430",
+    "cost": 35000
+  },
+  {
+    "baseStat": "431",
+    "cost": 35750
+  },
+  {
+    "baseStat": "432",
+    "cost": 36500
+  },
+  {
+    "baseStat": "433",
+    "cost": 37250
+  },
+  {
+    "baseStat": "434",
+    "cost": 38000
+  },
+  {
+    "baseStat": "435",
+    "cost": 38750
+  },
+  {
+    "baseStat": "436",
+    "cost": 39500
+  },
+  {
+    "baseStat": "437",
+    "cost": 40250
+  },
+  {
+    "baseStat": "438",
+    "cost": 41000
+  },
+  {
+    "baseStat": "439",
+    "cost": 41750
+  },
+  {
+    "baseStat": "440",
+    "cost": 42500
+  },
+  {
+    "baseStat": "441",
+    "cost": 43250
+  },
+  {
+    "baseStat": "442",
+    "cost": 44000
+  },
+  {
+    "baseStat": "443",
+    "cost": 44750
+  },
+  {
+    "baseStat": "444",
+    "cost": 45500
+  },
+  {
+    "baseStat": "445",
+    "cost": 46250
+  },
+  {
+    "baseStat": "446",
+    "cost": 47000
+  },
+  {
+    "baseStat": "447",
+    "cost": 47750
+  },
+  {
+    "baseStat": "448",
+    "cost": 48500
+  },
+  {
+    "baseStat": "449",
+    "cost": 49250
+  },
+  {
+    "baseStat": "450",
+    "cost": 50000
+  },
+  {
+    "baseStat": "451",
+    "cost": 51500
+  },
+  {
+    "baseStat": "452",
+    "cost": 53000
+  },
+  {
+    "baseStat": "453",
+    "cost": 54500
+  },
+  {
+    "baseStat": "454",
+    "cost": 56000
+  },
+  {
+    "baseStat": "455",
+    "cost": 57500
+  },
+  {
+    "baseStat": "456",
+    "cost": 59000
+  },
+  {
+    "baseStat": "457",
+    "cost": 60500
+  },
+  {
+    "baseStat": "458",
+    "cost": 62000
+  },
+  {
+    "baseStat": "459",
+    "cost": 63500
+  },
+  {
+    "baseStat": "460",
+    "cost": 65000
+  },
+  {
+    "baseStat": "461",
+    "cost": 66500
+  },
+  {
+    "baseStat": "462",
+    "cost": 68000
+  },
+  {
+    "baseStat": "463",
+    "cost": 69500
+  },
+  {
+    "baseStat": "464",
+    "cost": 71000
+  },
+  {
+    "baseStat": "465",
+    "cost": 72500
+  },
+  {
+    "baseStat": "466",
+    "cost": 74000
+  },
+  {
+    "baseStat": "467",
+    "cost": 75500
+  },
+  {
+    "baseStat": "468",
+    "cost": 77000
+  },
+  {
+    "baseStat": "469",
+    "cost": 78500
+  },
+  {
+    "baseStat": "470",
+    "cost": 80000
+  },
+  {
+    "baseStat": "471",
+    "cost": 81500
+  },
+  {
+    "baseStat": "472",
+    "cost": 83000
+  },
+  {
+    "baseStat": "473",
+    "cost": 84500
+  },
+  {
+    "baseStat": "474",
+    "cost": 86000
+  },
+  {
+    "baseStat": "475",
+    "cost": 87500
+  },
+  {
+    "baseStat": "476",
+    "cost": 89000
+  },
+  {
+    "baseStat": "477",
+    "cost": 90500
+  },
+  {
+    "baseStat": "478",
+    "cost": 92000
+  },
+  {
+    "baseStat": "479",
+    "cost": 93500
+  },
+  {
+    "baseStat": "480",
+    "cost": 95000
+  },
+  {
+    "baseStat": "481",
+    "cost": 96500
+  },
+  {
+    "baseStat": "482",
+    "cost": 98000
+  },
+  {
+    "baseStat": "483",
+    "cost": 99500
+  },
+  {
+    "baseStat": "484",
+    "cost": 101000
+  },
+  {
+    "baseStat": "485",
+    "cost": 102500
+  },
+  {
+    "baseStat": "486",
+    "cost": 104000
+  },
+  {
+    "baseStat": "487",
+    "cost": 105500
+  },
+  {
+    "baseStat": "488",
+    "cost": 107000
+  },
+  {
+    "baseStat": "489",
+    "cost": 108500
+  },
+  {
+    "baseStat": "490",
+    "cost": 110000
+  },
+  {
+    "baseStat": "491",
+    "cost": 111500
+  },
+  {
+    "baseStat": "492",
+    "cost": 113000
+  },
+  {
+    "baseStat": "493",
+    "cost": 114500
+  },
+  {
+    "baseStat": "494",
+    "cost": 116000
+  },
+  {
+    "baseStat": "495",
+    "cost": 117500
+  },
+  {
+    "baseStat": "496",
+    "cost": 119000
+  },
+  {
+    "baseStat": "497",
+    "cost": 120500
+  },
+  {
+    "baseStat": "498",
+    "cost": 122000
+  },
+  {
+    "baseStat": "499",
+    "cost": 123500
+  },
+  {
+    "baseStat": "500",
+    "cost": 125000
+  },
+  {
+    "baseStat": "501",
+    "cost": 127500
+  },
+  {
+    "baseStat": "502",
+    "cost": 130000
+  },
+  {
+    "baseStat": "503",
+    "cost": 132500
+  },
+  {
+    "baseStat": "504",
+    "cost": 135000
+  },
+  {
+    "baseStat": "505",
+    "cost": 137500
+  },
+  {
+    "baseStat": "506",
+    "cost": 140000
+  },
+  {
+    "baseStat": "507",
+    "cost": 142500
+  },
+  {
+    "baseStat": "508",
+    "cost": 145000
+  },
+  {
+    "baseStat": "509",
+    "cost": 147500
+  },
+  {
+    "baseStat": "510",
+    "cost": 150000
+  },
+  {
+    "baseStat": "511",
+    "cost": 152500
+  },
+  {
+    "baseStat": "512",
+    "cost": 155000
+  },
+  {
+    "baseStat": "513",
+    "cost": 157500
+  },
+  {
+    "baseStat": "514",
+    "cost": 160000
+  },
+  {
+    "baseStat": "515",
+    "cost": 162500
+  },
+  {
+    "baseStat": "516",
+    "cost": 165000
+  },
+  {
+    "baseStat": "517",
+    "cost": 167500
+  },
+  {
+    "baseStat": "518",
+    "cost": 170000
+  },
+  {
+    "baseStat": "519",
+    "cost": 172500
+  },
+  {
+    "baseStat": "520",
+    "cost": 175000
+  },
+  {
+    "baseStat": "521",
+    "cost": 177500
+  },
+  {
+    "baseStat": "522",
+    "cost": 180000
+  },
+  {
+    "baseStat": "523",
+    "cost": 182500
+  },
+  {
+    "baseStat": "524",
+    "cost": 185000
+  },
+  {
+    "baseStat": "525",
+    "cost": 187500
+  },
+  {
+    "baseStat": "526",
+    "cost": 190000
+  },
+  {
+    "baseStat": "527",
+    "cost": 192500
+  },
+  {
+    "baseStat": "528",
+    "cost": 195000
+  },
+  {
+    "baseStat": "529",
+    "cost": 197500
+  },
+  {
+    "baseStat": "530",
+    "cost": 200000
+  },
+  {
+    "baseStat": "531",
+    "cost": 202500
+  },
+  {
+    "baseStat": "532",
+    "cost": 205000
+  },
+  {
+    "baseStat": "533",
+    "cost": 207500
+  },
+  {
+    "baseStat": "534",
+    "cost": 210000
+  },
+  {
+    "baseStat": "535",
+    "cost": 212500
+  },
+  {
+    "baseStat": "536",
+    "cost": 215000
+  },
+  {
+    "baseStat": "537",
+    "cost": 217500
+  },
+  {
+    "baseStat": "538",
+    "cost": 220000
+  },
+  {
+    "baseStat": "539",
+    "cost": 222500
+  },
+  {
+    "baseStat": "540",
+    "cost": 225000
+  },
+  {
+    "baseStat": "541",
+    "cost": 227500
+  },
+  {
+    "baseStat": "542",
+    "cost": 230000
+  },
+  {
+    "baseStat": "543",
+    "cost": 232500
+  },
+  {
+    "baseStat": "544",
+    "cost": 235000
+  },
+  {
+    "baseStat": "545",
+    "cost": 237500
+  },
+  {
+    "baseStat": "546",
+    "cost": 240000
+  },
+  {
+    "baseStat": "547",
+    "cost": 242500
+  },
+  {
+    "baseStat": "548",
+    "cost": 245000
+  },
+  {
+    "baseStat": "549",
+    "cost": 247500
+  },
+  {
+    "baseStat": "550",
+    "cost": 250000
+  },
+  {
+    "baseStat": "551",
+    "cost": 255000
+  },
+  {
+    "baseStat": "552",
+    "cost": 260000
+  },
+  {
+    "baseStat": "553",
+    "cost": 265000
+  },
+  {
+    "baseStat": "554",
+    "cost": 270000
+  },
+  {
+    "baseStat": "555",
+    "cost": 275000
+  },
+  {
+    "baseStat": "556",
+    "cost": 280000
+  },
+  {
+    "baseStat": "557",
+    "cost": 285000
+  },
+  {
+    "baseStat": "558",
+    "cost": 290000
+  },
+  {
+    "baseStat": "559",
+    "cost": 295000
+  },
+  {
+    "baseStat": "560",
+    "cost": 300000
+  },
+  {
+    "baseStat": "561",
+    "cost": 305000
+  },
+  {
+    "baseStat": "562",
+    "cost": 310000
+  },
+  {
+    "baseStat": "563",
+    "cost": 315000
+  },
+  {
+    "baseStat": "564",
+    "cost": 320000
+  },
+  {
+    "baseStat": "565",
+    "cost": 325000
+  },
+  {
+    "baseStat": "566",
+    "cost": 330000
+  },
+  {
+    "baseStat": "567",
+    "cost": 335000
+  },
+  {
+    "baseStat": "568",
+    "cost": 340000
+  },
+  {
+    "baseStat": "569",
+    "cost": 345000
+  },
+  {
+    "baseStat": "570",
+    "cost": 350000
+  },
+  {
+    "baseStat": "571",
+    "cost": 355000
+  },
+  {
+    "baseStat": "572",
+    "cost": 360000
+  },
+  {
+    "baseStat": "573",
+    "cost": 365000
+  },
+  {
+    "baseStat": "574",
+    "cost": 370000
+  },
+  {
+    "baseStat": "575",
+    "cost": 375000
+  },
+  {
+    "baseStat": "576",
+    "cost": 380000
+  },
+  {
+    "baseStat": "577",
+    "cost": 385000
+  },
+  {
+    "baseStat": "578",
+    "cost": 390000
+  },
+  {
+    "baseStat": "579",
+    "cost": 395000
+  },
+  {
+    "baseStat": "580",
+    "cost": 400000
+  },
+  {
+    "baseStat": "581",
+    "cost": 405000
+  },
+  {
+    "baseStat": "582",
+    "cost": 410000
+  },
+  {
+    "baseStat": "583",
+    "cost": 415000
+  },
+  {
+    "baseStat": "584",
+    "cost": 420000
+  },
+  {
+    "baseStat": "585",
+    "cost": 425000
+  },
+  {
+    "baseStat": "586",
+    "cost": 430000
+  },
+  {
+    "baseStat": "587",
+    "cost": 435000
+  },
+  {
+    "baseStat": "588",
+    "cost": 440000
+  },
+  {
+    "baseStat": "589",
+    "cost": 445000
+  },
+  {
+    "baseStat": "590",
+    "cost": 450000
+  },
+  {
+    "baseStat": "591",
+    "cost": 455000
+  },
+  {
+    "baseStat": "592",
+    "cost": 460000
+  },
+  {
+    "baseStat": "593",
+    "cost": 465000
+  },
+  {
+    "baseStat": "594",
+    "cost": 470000
+  }
+]

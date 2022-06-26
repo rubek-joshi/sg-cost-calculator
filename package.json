@@ -1,6 +1,6 @@
 {
   "name": "sg-cost-calculator",
-  "version": "0.1.0",
+  "version": "2.1.0",
   "homepage": "https://rubek-joshi.github.io/sg-cost-calculator",
   "private": true,
   "dependencies": {

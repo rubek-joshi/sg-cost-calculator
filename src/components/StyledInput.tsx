@@ -14,4 +14,4 @@ export const NumberTextField = styled((props) => (
     InputLabelProps={{ shrink: true }}
     {...props}
   />
-))<TextFieldProps>();
+))<TextFieldProps>(() => ({}));

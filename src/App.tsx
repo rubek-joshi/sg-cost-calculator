@@ -5,18 +5,25 @@ import {
   responsiveFontSizes,
 } from "@mui/material/styles";
 import "./App.css";
-import Paper from "@mui/material/Paper";
 import Container from "@mui/material/Container";
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
 import Slider from "@mui/material/Slider";
 import Divider from "@mui/material/Divider";
-import Fab from "@mui/material/Fab";
-import GitHubIcon from "@mui/icons-material/GitHub";
 import ReactGA from "react-ga4";
-import { Title, OverallInput, NumberTextField } from "./components";
+
+import {
+  Title,
+  OverallInput,
+  NumberTextField,
+  RepoLink,
+  StyledPaper,
+} from "./components";
+import { formatStringCredits } from "./utils";
+
 import data from "./data/card_pricing.json";
+import upgradeData from "./data/upgrade_pricing.json";
 
 function App() {
   let darkTheme = createTheme({ palette: { mode: "dark" } });
@@ -27,9 +34,12 @@ function App() {
   const [baseStats, setBaseStats] = useState("");
   const [baseStatsError, setBaseStatsError] = useState("");
   const [cost, setCost] = useState("n/a");
+  const [upgradeCost, setUpgradeCost] = useState(0);
+  const [totalCost, setTotalCost] = useState(0);
 
-  // render upgrade level only for base stat higher than 399 due to missing data
-  const showUpgradeLevel = !!Number(baseStats) && Number(baseStats) >= 400;
+  // upgrade level available only for base stat higher than 399
+  const allowUpgradeLevel =
+    !!Number(baseStats) && Number(baseStats) >= 400 && Number(baseStats) <= 594;
 
   useEffect(() => {
     ReactGA.send("pageview");
@@ -46,7 +56,12 @@ function App() {
       );
       setCost("n/a");
     } else {
-      setBaseStatsError("");
+      Number(baseStats) < 400
+        ? setBaseStatsError(
+            "Needs to be higher than 399 to unlock upgrade level"
+          )
+        : setBaseStatsError("");
+
       ReactGA.event({
         category: "engagement",
         action: "Set Total BS Correctly",
@@ -76,6 +91,18 @@ function App() {
     }
   }, [overall, baseStats, baseStatsError]);
 
+  useEffect(() => {
+    if (!baseStatsError && allowUpgradeLevel) {
+      const info = upgradeData.find(({ baseStat }) => baseStat === baseStats);
+      if (info) setUpgradeCost(info.cost * upgradeLevel);
+    } else setUpgradeCost(0);
+  }, [baseStats, upgradeLevel, allowUpgradeLevel, baseStatsError]);
+
+  useEffect(() => {
+    if (cost === "n/a") setTotalCost(0);
+    else setTotalCost(Number(cost.replace(/,/gi, "")) + upgradeCost);
+  }, [cost, upgradeCost]);
+
   const handleOverallChange = (event: any) =>
     setOverall(event.target.value === "" ? 70 : Number(event.target.value));
 
@@ -92,26 +119,13 @@ function App() {
     newValue: number | number[]
   ) => setUpgradeLevel(Array.isArray(newValue) ? newValue[0] : newValue);
 
-  const handleFabClick = () => {
-    window.open("https://github.com/rubek-joshi/sg-cost-calculator", "_blank");
-    ReactGA.event({ category: "Curiosity", action: "Visit Github Link" });
-  };
-
   return (
     <div className="App">
       <ThemeProvider theme={darkTheme}>
         <Container>
           <Title />
 
-          <Paper
-            sx={{
-              p: 4,
-              margin: "auto",
-              maxWidth: 450,
-              flexShrink: 1,
-              background: "#001e3c",
-            }}
-          >
+          <StyledPaper>
             <Grid container sx={{ pb: 1 }}>
               <Grid item xs={12}>
                 <Box alignItems="flex-start">
@@ -131,7 +145,7 @@ function App() {
               </Grid>
             </Grid>
 
-            <Grid container sx={{ pb: showUpgradeLevel ? 3 : 1 }}>
+            <Grid container sx={{ pb: allowUpgradeLevel ? 3 : 1 }}>
               <Grid item xs={12}>
                 <Box alignItems="flex-start">
                   <Grid container>
@@ -157,59 +171,73 @@ function App() {
               </Grid>
             </Grid>
 
-            {showUpgradeLevel && (
-              <Grid container sx={{ pb: 1 }}>
-                <Grid item xs={12}>
-                  <Box alignItems="flex-start">
-                    <Grid container>
-                      <Typography id="upgrade-level-slider" gutterBottom>
-                        Select Upgrade Level
-                      </Typography>
-                    </Grid>
+            <Grid container sx={{ pb: 1 }}>
+              <Grid item xs={12}>
+                <Box alignItems="flex-start">
+                  <Grid container>
+                    <Typography id="upgrade-level-slider" gutterBottom>
+                      Select Upgrade Level
+                    </Typography>
+                  </Grid>
 
-                    <Grid container>
-                      <Grid item xs>
-                        <Box sx={{ px: 1 }}>
-                          <Slider
-                            value={upgradeLevel}
-                            onChange={handleUpgradeLevelChange}
-                            aria-labelledby="upgrade-level-slider"
-                            min={0}
-                            max={5}
-                            marks={Array.from({ length: 6 }, (_, index) => ({
-                              value: index,
-                              label: index,
-                            }))}
-                            sx={{ color: "#90caf9" }}
-                          />
-                        </Box>
-                      </Grid>
+                  <Grid container>
+                    <Grid item xs>
+                      <Box sx={{ px: 1 }}>
+                        <Slider
+                          value={upgradeLevel}
+                          onChange={handleUpgradeLevelChange}
+                          aria-labelledby="upgrade-level-slider"
+                          min={0}
+                          max={5}
+                          marks={Array.from({ length: 6 }, (_, index) => ({
+                            value: index,
+                            label: index,
+                          }))}
+                          sx={{ color: "#90caf9" }}
+                          disabled={!allowUpgradeLevel}
+                        />
+                      </Box>
                     </Grid>
-                  </Box>
-                </Grid>
+                  </Grid>
+                </Box>
               </Grid>
-            )}
+            </Grid>
 
-            <Divider sx={{ py: 2 }} />
+            <Divider sx={{ pt: 2 }} />
 
             <Typography
-              variant="h4"
+              variant="body1"
               component="div"
-              sx={{ pt: 4, display: "flex", justifyContent: "space-between" }}
+              sx={{ pt: 2, display: "flex", justifyContent: "space-between" }}
             >
-              Cost:
+              Card Cost:
               <span>
                 {cost} {!baseStatsError ? "credits" : ""}
               </span>
             </Typography>
-          </Paper>
 
-          <Fab
-            sx={{ position: "absolute", bottom: 16, right: 16 }}
-            onClick={handleFabClick}
-          >
-            <GitHubIcon />
-          </Fab>
+            <Typography
+              variant="body1"
+              component="div"
+              sx={{ pt: 1, display: "flex", justifyContent: "space-between" }}
+            >
+              Upgrade Cost:
+              <span>{formatStringCredits(upgradeCost)}</span>
+            </Typography>
+
+            <Divider sx={{ pb: 2 }} />
+
+            <Typography
+              variant="h5"
+              component="div"
+              sx={{ pt: 2, display: "flex", justifyContent: "space-between" }}
+            >
+              Total Cost:
+              <span>{formatStringCredits(totalCost)}</span>
+            </Typography>
+          </StyledPaper>
+
+          <RepoLink />
         </Container>
       </ThemeProvider>
     </div>
