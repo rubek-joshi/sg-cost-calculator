@@ -5,7 +5,7 @@ export const Title = () => {
     <Typography
       className="Main-title"
       variant="h3"
-      component="div"
+      component="h1"
       gutterBottom
     >
       Soccer Guru
