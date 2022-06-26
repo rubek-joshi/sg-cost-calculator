@@ -1,33 +1,35 @@
 import { useState, useEffect } from "react";
-import { createTheme, ThemeProvider } from "@mui/material/styles";
+import {
+  createTheme,
+  ThemeProvider,
+  responsiveFontSizes,
+} from "@mui/material/styles";
 import "./App.css";
-import { styled, responsiveFontSizes } from "@mui/material/styles";
 import Paper from "@mui/material/Paper";
 import Container from "@mui/material/Container";
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
-import TextField from "@mui/material/TextField";
 import Slider from "@mui/material/Slider";
-import MuiInput from "@mui/material/Input";
 import Divider from "@mui/material/Divider";
 import Fab from "@mui/material/Fab";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import ReactGA from "react-ga4";
-import data from "./data.json";
-
-const Input = styled(MuiInput)`
-  width: 42px;
-`;
+import { Title, OverallInput, NumberTextField } from "./components";
+import data from "./data/card_pricing.json";
 
 function App() {
   let darkTheme = createTheme({ palette: { mode: "dark" } });
   darkTheme = responsiveFontSizes(darkTheme);
 
   const [overall, setOverall] = useState(90);
+  const [upgradeLevel, setUpgradeLevel] = useState(0);
   const [baseStats, setBaseStats] = useState("");
   const [baseStatsError, setBaseStatsError] = useState("");
   const [cost, setCost] = useState("n/a");
+
+  // render upgrade level only for base stat higher than 399 due to missing data
+  const showUpgradeLevel = !!Number(baseStats) && Number(baseStats) >= 400;
 
   useEffect(() => {
     ReactGA.send("pageview");
@@ -74,9 +76,6 @@ function App() {
     }
   }, [overall, baseStats, baseStatsError]);
 
-  const handleSliderChange = (event: Event, newValue: number | number[]) =>
-    setOverall(Array.isArray(newValue) ? newValue[0] : newValue);
-
   const handleOverallChange = (event: any) =>
     setOverall(event.target.value === "" ? 70 : Number(event.target.value));
 
@@ -88,6 +87,11 @@ function App() {
   const handleBaseStatsChange = (event: any) =>
     setBaseStats(event.target.value);
 
+  const handleUpgradeLevelChange = (
+    event: Event,
+    newValue: number | number[]
+  ) => setUpgradeLevel(Array.isArray(newValue) ? newValue[0] : newValue);
+
   const handleFabClick = () => {
     window.open("https://github.com/rubek-joshi/sg-cost-calculator", "_blank");
     ReactGA.event({ category: "Curiosity", action: "Visit Github Link" });
@@ -97,16 +101,7 @@ function App() {
     <div className="App">
       <ThemeProvider theme={darkTheme}>
         <Container>
-          <Typography
-            className="Main-title"
-            variant="h3"
-            gutterBottom
-            component="div"
-          >
-            Soccer Guru
-            <br />
-            Player Cost Calculator
-          </Typography>
+          <Title />
 
           <Paper
             sx={{
@@ -126,38 +121,17 @@ function App() {
                     </Typography>
                   </Grid>
 
-                  <Grid container spacing={2}>
-                    <Grid item xs>
-                      <Slider
-                        value={typeof overall === "number" ? overall : 0}
-                        onChange={handleSliderChange}
-                        aria-labelledby="input-slider"
-                        min={70}
-                        max={99}
-                        sx={{color: "#90caf9"}}
-                      />
-                    </Grid>
-
-                    <Grid item>
-                      <Input
-                        value={overall}
-                        size="small"
-                        onChange={handleOverallChange}
-                        onBlur={handleOverallBlur}
-                        inputProps={{
-                          min: 70,
-                          max: 99,
-                          type: "number",
-                          "aria-labelledby": "input-slider",
-                        }}
-                      />
-                    </Grid>
-                  </Grid>
+                  <OverallInput
+                    overall={overall}
+                    onOverallSliderChange={setOverall}
+                    onOverallChange={handleOverallChange}
+                    onOverallBlur={handleOverallBlur}
+                  />
                 </Box>
               </Grid>
             </Grid>
 
-            <Grid container>
+            <Grid container sx={{ pb: showUpgradeLevel ? 3 : 1 }}>
               <Grid item xs={12}>
                 <Box alignItems="flex-start">
                   <Grid container>
@@ -168,25 +142,53 @@ function App() {
 
                   <Grid container spacing={2}>
                     <Grid item xs>
-                      <TextField
-                        fullWidth
+                      <NumberTextField
                         id="standard-number"
-                        type="number"
-                        variant="standard"
-                        InputLabelProps={{ shrink: true }}
                         autoFocus
                         required
                         placeholder="Eg. 532"
                         value={baseStats}
                         onChange={handleBaseStatsChange}
                         helperText={baseStatsError}
-                        // error
                       />
                     </Grid>
                   </Grid>
                 </Box>
               </Grid>
             </Grid>
+
+            {showUpgradeLevel && (
+              <Grid container sx={{ pb: 1 }}>
+                <Grid item xs={12}>
+                  <Box alignItems="flex-start">
+                    <Grid container>
+                      <Typography id="upgrade-level-slider" gutterBottom>
+                        Select Upgrade Level
+                      </Typography>
+                    </Grid>
+
+                    <Grid container>
+                      <Grid item xs>
+                        <Box sx={{ px: 1 }}>
+                          <Slider
+                            value={upgradeLevel}
+                            onChange={handleUpgradeLevelChange}
+                            aria-labelledby="upgrade-level-slider"
+                            min={0}
+                            max={5}
+                            marks={Array.from({ length: 6 }, (_, index) => ({
+                              value: index,
+                              label: index,
+                            }))}
+                            sx={{ color: "#90caf9" }}
+                          />
+                        </Box>
+                      </Grid>
+                    </Grid>
+                  </Box>
+                </Grid>
+              </Grid>
+            )}
 
             <Divider sx={{ py: 2 }} />
 
