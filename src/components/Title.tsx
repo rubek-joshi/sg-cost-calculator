@@ -8,7 +8,7 @@ export const Title = () => {
       component="h1"
       gutterBottom
     >
-      Soccer Guru
+      SG
       <br />
       Player Cost Calculator
     </Typography>
